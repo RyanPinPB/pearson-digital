@@ -1,0 +1,11 @@
+.user-output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 10px;
+}
+
+.output-text {
+  border: 1px solid pink;
+}

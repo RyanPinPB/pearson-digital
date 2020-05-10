@@ -1,0 +1,11 @@
+.user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 10px;
+}
+
+.user-entry {
+  border: 1px solid pink;
+}

@@ -1,0 +1,11 @@
+.content-wrap {
+  position: relative;
+  margin-top: 135px;
+}
+
+@media (min-width: 769px) {
+  .content-wrap {
+    position: relative;
+    margin-top: 75px;
+  }
+}
