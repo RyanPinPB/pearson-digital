@@ -5,7 +5,16 @@ class UserInput extends React.Component {
   render() {
     return (
       <section className='user-input'>
-        <input type='text' className='user-entry' />
+        <div className='input-container'>
+          <input
+            type='text'
+            className='user-entry'
+            placeholder='enter username'
+          />
+          <button onClick={this.props.submit} type='submit'>
+            LOG IN
+          </button>
+        </div>
       </section>
     );
   }
